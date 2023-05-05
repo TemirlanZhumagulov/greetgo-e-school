@@ -1,4 +1,6 @@
 # ESchool
+![](./Screenshot (44).png)
+![](./Screenshot (45).png)
 
 ## 1. Что должно быть скачано у вас:
 1.1. Java JDK17+
