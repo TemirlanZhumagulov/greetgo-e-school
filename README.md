@@ -14,8 +14,6 @@
 1.6. Git
 
 ## 2. Как установить проект с Github
-Вы можете скачать проект с github через архив, git или расширение GitHub Pull Requests and Issues. Покажу на примере второго варианта:
-
 2.1. Открываем Visual Studio Code > new Terminal 
 
 2.2. Вводим git clone https://github.com/TemirlanZhumagulov/greetgo-e-school.git
@@ -25,6 +23,8 @@
 2.4. Открываем эту папку в проводнике
 
 2.5. Внутри этой папки будет e-school-server, открываем его как проект в Intellij IDEA
+
+Также, можете скачать проект с github через архив и распокавать его, или через расширение GitHub Pull Requests and Issues в VS code. 
 
 ## 3. Настройка и запуск
 3.1. Открываем PgAdmin, заходим в сервер PostgreSQL15, и вводим свой пароль если он поставлен и создаем базу данных с именем e-school
