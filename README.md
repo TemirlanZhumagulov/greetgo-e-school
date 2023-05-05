@@ -1,6 +1,4 @@
-# Задание "Электронная-школа"
-
-## Обзор
+# "Электронная-школа"
 ![](https://github.com/TemirlanZhumagulov/greetgo-e-school/blob/main/Screenshot%20(44).png)
 
 ![](https://github.com/TemirlanZhumagulov/greetgo-e-school/blob/main/Screenshot%20(45).png)
