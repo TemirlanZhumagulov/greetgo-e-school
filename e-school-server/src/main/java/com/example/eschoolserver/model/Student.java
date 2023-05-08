@@ -1,16 +1,16 @@
 package com.example.eschoolserver.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 
 @Entity
 @Table(name = "students")
 public class Student {
-    @Id
-    private Long id;
+  @Id
+  @GeneratedValue(strategy = GenerationType.IDENTITY)
+  @Column(name = "studentID", updatable = false)
+  private Long studentID;
 
-    private String name;
+  private String name;
 
     private int age;
 
@@ -33,15 +33,15 @@ public class Student {
         this.email = email;
     }
 
-    public Long getId() {
-        return id;
-    }
+  public Long getStudentID() {
+    return studentID;
+  }
 
-    public void setId(Long id) {
-        this.id = id;
-    }
+  public void setStudentID(Long studentID) {
+    this.studentID = studentID;
+  }
 
-    public String getName() {
+  public String getName() {
         return name;
     }
 
